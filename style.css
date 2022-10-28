@@ -1,0 +1,31 @@
+/* <!-- screen oreintation base on aspect ratio https://stackoverflow.com/questions/23459824/different-grid-layout-for-portrait-and-landscape-in-bootstrap/23462633#23462633 --> */
+#footer{
+  width: 100%;
+}
+#user-image {
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+.container-fluid{
+  width: 80%;
+}
+p.text{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#fix {
+  z-index: 1;
+  background-color: bisque;
+  position: relative;
+  width: 10%;
+}
+#decor{
+  width: auto;
+}
+.foot-image{
+  display: inline-block;
+
+}
+body{
+  background-color: rgba(95, 250, 185, 0.1) ;
+}
