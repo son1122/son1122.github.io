@@ -1,4 +1,6 @@
-/* <!-- screen oreintation base on aspect ratio https://stackoverflow.com/questions/23459824/different-grid-layout-for-portrait-and-landscape-in-bootstrap/23462633#23462633 --> */
+* {
+  font-family: 'Inter', sans-serif;
+}
 #footer{
   width: 100%;
 }
@@ -27,5 +29,5 @@ p.text{
 
 }
 body{
-  background-color: rgba(95, 250, 185, 0.1) ;
+  background-color: whitesmoke ;
 }
