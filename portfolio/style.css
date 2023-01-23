@@ -1,5 +1,5 @@
 
-.box{
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +11,8 @@
     right: 1%;
     min-height: 98%;
     bottom: 2%;
-    
-    
+
+
 }
 
 header {
@@ -20,30 +20,35 @@ header {
     text-align: center;
     margin-top: 8%;
     margin-bottom: 5%;
-    
+
 
 }
-.line{
+
+.line {
     height: 0.5px;
     width: 70%;
     background: whitesmoke;
     margin-left: 15%;
 }
-body{
+
+body {
     background-color: gray;
-    color:white;
+    color: white;
 }
 
 a {
     color: rgb(128, 201, 157);
 }
-a.active{
+
+a.active {
     color: white;
     text-decoration: none;
 }
-main{
+
+main {
     margin: 3% 15% 5% 15%;
 }
+
 img {
     float: right;
     margin-right: 1%;
@@ -51,7 +56,8 @@ img {
     border: 1px whitesmoke solid;
     width: 100px;
 }
-footer{
+
+footer {
     margin-top: 10px;
     text-align: center;
 }

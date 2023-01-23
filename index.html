@@ -17,178 +17,183 @@
   </head>
   <body>
     <!-- Navigation bar at top -->
-    <nav class="navbar fixed-top" style="background-color:#0000005a">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#foo"><img src="icon.jpeg" width="40" height="40" alt="Profile icon"></a>
+<nav class="navbar fixed-top" style="background-color:#0000005a">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#foo"><img alt="Profile icon" height="40" src="icon.jpeg" width="40"></a>
         <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                class="navbar-toggler"
+                data-bs-target="#offcanvasNavbar"
+                data-bs-toggle="offcanvas"
+                type="button"
         >
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
+                aria-labelledby="offcanvasNavbarLabel"
+                class="offcanvas offcanvas-end"
+                id="offcanvasNavbar"
+                tabindex="-1"
         >
-        <!-- this part is off / side of menu -->
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation Menu</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#foo">Bottom</a>
-              </li>
-            </ul>
-          </div>
+            <!-- this part is off / side of menu -->
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation Menu</h5>
+                <button
+                        aria-label="Close"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        type="button"
+                ></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#foo">Bottom</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </nav>
-    <!--End Navigation bar at top -->
-    <!-- Profile Image -->
-    <div class="text-center" id="user-image">
-      <img
-        src="image/profile.jpg"
-        alt="wongsatorn profile pict"
-        class="img-fluid"
-        width="300"
-      />
     </div>
+</nav>
+<!--End Navigation bar at top -->
+<!-- Profile Image -->
+<div class="text-center" id="user-image">
+    <img
+            alt="wongsatorn profile pict"
+            class="img-fluid"
+            src="image/profile.jpg"
+            width="300"
+    />
+</div>
 
-    <div class="container-fluid">
-      <h3 class="text-center">Hello My name is Wongsatorn.</h3>
-      <p class="text">
-        I am mechanical/aerospace engineer that interset in programing.Right now i study software engineer immersive at True Digital Academy to be better understand at how Programming work.
-      </p>
-    </div>
-    <!-- <div class="container-fluid">
-      <img src="blue.png" width="100%" height="10%"/>
-    </div> -->
-    <div class="container-fluid">
-      <h3>My Porfolio</h3>
-      <p class="text"></p>
-    </div>
-    <!-- Porfolio card -->
-    <div class="container-fluid">
-      <div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="container-fluid">
+    <h3 class="text-center">Hello My name is Wongsatorn.</h3>
+    <p class="text">
+        I am mechanical/aerospace engineer that interset in programing.Right now i study software engineer immersive at
+        True Digital Academy to be better understand at how Programming work.
+    </p>
+</div>
+<!-- <div class="container-fluid">
+  <img src="blue.png" width="100%" height="10%"/>
+</div> -->
+<div class="container-fluid">
+    <h3>My Porfolio</h3>
+    <p class="text"></p>
+</div>
+<!-- Porfolio card -->
+<div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
-          <div class="card">
-            <img src="image/CFD.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Flowww !!!!!</h5>
-              <p class="card-text">
-                CFD Simulation
-              </p>
+            <div class="card">
+                <img alt="..." class="card-img-top" src="image/CFD.png"/>
+                <div class="card-body">
+                    <h5 class="card-title">Flowww !!!!!</h5>
+                    <p class="card-text">
+                        CFD Simulation
+                    </p>
+                </div>
             </div>
-          </div>
         </div>
         <div class="col">
-          <div class="card">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe height="300" style="width: 100%;" class="embed-responsive-item" src="video/compressor.mp4" allow="loop; autoplay;"></iframe>
+            <div class="card">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe allow="loop; autoplay;" class="embed-responsive-item" height="300" src="video/compressor.mp4"
+                            style="width: 100%;"></iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">It compress !!!</h5>
+                    <p class="card-text">
+                        CFD Simulation of Gass Turbine Axial Compressor Section of RC Jet engine
+                    </p>
+                </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">It compress !!!</h5>
-              <p class="card-text">
-                CFD Simulation of Gass Turbine Axial Compressor Section of RC Jet engine 
-              </p>
-            </div>
-          </div>
         </div>
         <div class="col">
-          <div class="card">
-            <iframe height="300" style="width: 100%;" scrolling="no" title="Traffic Light JS" src="https://codepen.io/wongsatorn-norrasing/embed/QWrNRpz?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-              See the Pen <a href="https://codepen.io/wongsatorn-norrasing/pen/QWrNRpz">
-              Traffic Light JS</a> by Wongsatorn Norrasing (<a href="https://codepen.io/wongsatorn-norrasing">@wongsatorn-norrasing</a>)
-              on <a href="https://codepen.io">CodePen</a>.
-            </iframe>
-            <div class="card-body">
-              <h5 class="card-title">Traffic !!!</h5>
-              <p class="card-text">
-                This is a part of test from GA and TDA TIP
-              </p>
-              <a href="https://codepen.io/wongsatorn-norrasing/pen/QWrNRpz" target="_blank" class="stretched-link"></a>
+            <div class="card">
+                <iframe allowfullscreen="true" allowtransparency="true" frameborder="no" height="300"
+                        loading="lazy"
+                        scrolling="no" src="https://codepen.io/wongsatorn-norrasing/embed/QWrNRpz?default-tab=html%2Cresult" style="width: 100%;" title="Traffic Light JS">
+                    See the Pen <a href="https://codepen.io/wongsatorn-norrasing/pen/QWrNRpz">
+                    Traffic Light JS</a> by Wongsatorn Norrasing (<a href="https://codepen.io/wongsatorn-norrasing">@wongsatorn-norrasing</a>)
+                    on <a href="https://codepen.io">CodePen</a>.
+                </iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Traffic !!!</h5>
+                    <p class="card-text">
+                        This is a part of test from GA and TDA TIP
+                    </p>
+                    <a class="stretched-link" href="https://codepen.io/wongsatorn-norrasing/pen/QWrNRpz"
+                       target="_blank"></a>
+                </div>
             </div>
-          </div>
         </div>
         <div class="col">
-          <div class="card">
-            <iframe height="300" style="width: 100%;" class="preview" src="https://son1122.github.io">
-              <p>Your browser does not support iframes.</p>
-            </iframe>
-            <div class="card-body">
-              <h5 class="card-title">Resume Preview</h5>
-              <p class="card-text">
-                Preview of resume in Vertical oreintation
-              </p>
+            <div class="card">
+                <iframe class="preview" height="300" src="https://son1122.github.io" style="width: 100%;">
+                    <p>Your browser does not support iframes.</p>
+                </iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Resume Preview</h5>
+                    <p class="card-text">
+                        Preview of resume in Vertical oreintation
+                    </p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <div class="container-fluid">
-      <p class="text"></p>
-    </div>
-    <!-- Footer -->
-    <footer class="bg-light text-white" id="foo">
-      <div class="text-center p-3" style="background-color:#00000049;">
+</div>
+<div class="container-fluid">
+    <p class="text"></p>
+</div>
+<!-- Footer -->
+<footer class="bg-light text-white" id="foo">
+    <div class="text-center p-3" style="background-color:#00000049;">
         <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
-        href="https://web.facebook.com/sonwon1122"
-        role="button"
+                class="btn text-white btn-floating m-1"
+                href="https://web.facebook.com/sonwon1122"
+                role="button"
+                style="background-color: #333333;"
         >Facebook</a>
         <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
-        href="https://www.linkedin.com/in/wongsatorn-norrasing-086042205/"
-        role="button"
+                class="btn text-white btn-floating m-1"
+                href="https://www.linkedin.com/in/wongsatorn-norrasing-086042205/"
+                role="button"
+                style="background-color: #333333;"
         >LinkedIn</a>
         <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
-        href="https://github.com/son1122"
-        role="button"
+                class="btn text-white btn-floating m-1"
+                href="https://github.com/son1122"
+                role="button"
+                style="background-color: #333333;"
         >Github</a>
         <p></p>
         <p>Thank you for your Attention</p>
         <div class="foot-image">
-        <p>
-          <a href="http://jigsaw.w3.org/css-validator/check/referer">
-              <img style="border:0;width:88px;height:31px"
-                  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-                  alt="Valid CSS!"
-                  class="rounded float-left" />
-              </a>
-            <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                <img style="border:0;width:88px;height:31px"
-                    src="http://jigsaw.w3.org/css-validator/images/vcss"
-                    alt="Valid CSS!"
-                    class="rounded float-right" />
-            </a>
-        </p>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img alt="Valid CSS!"
+                         class="rounded float-left"
+                         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                         style="border:0;width:88px;height:31px"/>
+                </a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img alt="Valid CSS!"
+                         class="rounded float-right"
+                         src="http://jigsaw.w3.org/css-validator/images/vcss"
+                         style="border:0;width:88px;height:31px"/>
+                </a>
+            </p>
         </div>
-      </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+</footer>
+<script
+        crossorigin="anonymous"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+></script>
+</body>
 </html>
- -->
+-->
